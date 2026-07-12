@@ -1,0 +1,13 @@
+{
+  "builds": [
+    {
+      "src": "src/index.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    { "src": "/health", "dest": "src/index.ts" },
+    { "src": "/docs/(.*)", "dest": "src/index.ts" },
+    { "src": "/api/v1/reelshort/(.*)", "dest": "src/index.ts" }
+  ]
+}
