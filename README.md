@@ -4,7 +4,7 @@ API proxy/scraper untuk [reelshort.com](https://www.reelshort.com) — platform 
 Dibangun dengan **TypeScript + Express**.
 
 ![Node](https://img.shields.io/badge/Node-%3E%3D18-green.svg)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-7.0.2-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Stack
